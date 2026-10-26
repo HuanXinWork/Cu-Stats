@@ -10,8 +10,8 @@ namespace CasualtiesUnknown.Stats.Util
     [DisallowMultipleComponent]
     internal sealed class UpdateChecker : MonoBehaviour
     {
-        private const string ApiUrl = "https://api.github.com/repos/huanxin996/Cu-Stats/releases/latest";
-        private const string ReleasesUrl = "https://github.com/huanxin996/Cu-Stats/releases";
+        private const string ApiUrl = "https://api.github.com/repos/HuanXinWork/Cu-Stats/releases/latest";
+        private const string ReleasesUrl = "https://github.com/HuanXinWork/Cu-Stats/releases";
         private const int UpdateNoticeSlot = 2;
 
         private static bool _checked;

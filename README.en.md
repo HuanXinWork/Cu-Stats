@@ -11,13 +11,13 @@ Press U to open the panel. MC-style stats: how far you walked this run, how many
 
 ## Changelog
 
-Full release history lives in [changes.en.md](changes.en.md) (中文：[changes.md](changes.md)). Builds are published at [Releases](https://github.com/huanxin996/Cu-Stats/releases).
+Full release history lives in [changes.en.md](changes.en.md) (中文：[changes.md](changes.md)). Builds are published at [Releases](https://github.com/HuanXinWork/Cu-Stats/releases).
 
 ## Install
 
 BepInEx 5.x required. Drop `CuStats.dll` under `BepInEx/plugins/CuStats/`.
 
-If [CuSaveManager](https://github.com/huanxin996/Cu-SaveManager) is installed, its panel gains a "Statistics" sidebar tab — same panel as U opens. Without CuSaveManager the mod injects its own main-menu button and ModalWindow.
+If [CuSaveManager](https://github.com/HuanXinWork/Cu-SaveManager) is installed, its panel gains a "Statistics" sidebar tab — same panel as U opens. Without CuSaveManager the mod injects its own main-menu button and ModalWindow.
 
 ## Controls
 
@@ -72,13 +72,13 @@ dotnet build CuStats.csproj -c Release
 
 Output goes to `bin/Release/CuStats.dll`; copy it to `BepInEx/plugins/CuStats/`.
 
-Or grab a prebuilt dll from [Releases](https://github.com/huanxin996/Cu-Stats/releases) / GitHub Actions artifacts.
+Or grab a prebuilt dll from [Releases](https://github.com/HuanXinWork/Cu-Stats/releases) / GitHub Actions artifacts.
 
 ## Related
 
-- [CasualtiesUnknown-SkinEditor](https://github.com/huanxin996/CasualtiesUnknown-SkinEditor): live preview and animation preview.
-- [huanxin996/Cu-SaveManager](https://github.com/huanxin996/Cu-SaveManager): multi-save, backup, panel extension point.
-- [huanxin996/Cu-Hotbar](https://github.com/huanxin996/Cu-Hotbar): customizable hotbar with item swapping and quick-use.
+- [CasualtiesUnknown-SkinEditor](https://github.com/HuanXinWork/CasualtiesUnknown-SkinEditor): live preview and animation preview.
+- [HuanXinWork/Cu-SaveManager](https://github.com/HuanXinWork/Cu-SaveManager): multi-save, backup, panel extension point.
+- [HuanXinWork/Cu-Hotbar](https://github.com/HuanXinWork/Cu-Hotbar): customizable hotbar with item swapping and quick-use.
 
 ## License
 

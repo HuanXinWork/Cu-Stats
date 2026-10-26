@@ -173,19 +173,19 @@ namespace CasualtiesUnknown.Stats.UI
             GUILayout.Space(16f);
             GUILayout.Label(I18n.T("about.sec_links"), CenterTitleStyle, GUILayout.ExpandWidth(true));
             GUILayout.Space(6f);
-            DrawLinkButton(I18n.T("about.link_repo"), "https://github.com/huanxin996/Cu-Stats");
-            DrawLinkButton(I18n.T("about.link_release"), "https://github.com/huanxin996/Cu-Stats/releases/latest");
+            DrawLinkButton(I18n.T("about.link_repo"), "https://github.com/HuanXinWork/Cu-Stats");
+            DrawLinkButton(I18n.T("about.link_release"), "https://github.com/HuanXinWork/Cu-Stats/releases/latest");
 
             GUILayout.Space(16f);
             GUILayout.Label(I18n.T("about.sec_credits"), CenterTitleStyle, GUILayout.ExpandWidth(true));
             GUILayout.Space(6f);
-            DrawNameButton("huanxin996", "https://github.com/huanxin996");
+            DrawNameButton("huanxin886", "https://github.com/huanxin886");
 
             GUILayout.Space(16f);
             GUILayout.Label(I18n.T("about.sec_deps"), CenterTitleStyle, GUILayout.ExpandWidth(true));
             GUILayout.Space(6f);
             DrawLinkButton("BepInEx", "https://github.com/BepInEx/BepInEx");
-            DrawLinkButton("CuSaveManager", "https://github.com/huanxin996/Cu-Save-Manager");
+            DrawLinkButton("CuSaveManager", "https://github.com/HuanXinWork/Cu-SaveManager");
 
             GUILayout.Space(20f);
             GUILayout.EndScrollView();

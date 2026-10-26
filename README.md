@@ -11,13 +11,13 @@ English guide: see [README.en.md](README.en.md)
 
 ## 更新日志
 
-完整变更记录见 [changes.md](changes.md)（English: [changes.en.md](changes.en.md)）。最新发布在 [Releases](https://github.com/huanxin996/Cu-Stats/releases) 页面。
+完整变更记录见 [changes.md](changes.md)（English: [changes.en.md](changes.en.md)）。最新发布在 [Releases](https://github.com/HuanXinWork/Cu-Stats/releases) 页面。
 
 ## 安装
 
 要 BepInEx 5.x。把 `CuStats.dll` 丢到 `BepInEx/plugins/CuStats/`。
 
-装了 [CuSaveManager](https://github.com/huanxin996/Cu-SaveManager) 的话，它的主面板里会多一个「统计」分页，跟按 U 看到的是同一个东西；不装也能独立运行（主菜单注入「统计」按钮 + 游戏内 U 键）。
+装了 [CuSaveManager](https://github.com/HuanXinWork/Cu-SaveManager) 的话，它的主面板里会多一个「统计」分页，跟按 U 看到的是同一个东西；不装也能独立运行（主菜单注入「统计」按钮 + 游戏内 U 键）。
 
 ## 操作
 
@@ -72,13 +72,13 @@ dotnet build CuStats.csproj -c Release
 
 产出在 `bin/Release/CuStats.dll`，复制到 `BepInEx/plugins/CuStats/` 即可。
 
-也可以直接到 [Releases](https://github.com/huanxin996/Cu-Stats/releases) 拿构建好的 dll，或下载 GitHub Actions 的 artifact。
+也可以直接到 [Releases](https://github.com/HuanXinWork/Cu-Stats/releases) 拿构建好的 dll，或下载 GitHub Actions 的 artifact。
 
 ## 相关项目
 
-- [CasualtiesUnknown-SkinEditor 皮肤编辑器](https://github.com/huanxin996/CasualtiesUnknown-SkinEditor)：支持实时预览与动画预览。
-- [huanxin996/Cu-SaveManager](https://github.com/huanxin996/Cu-SaveManager)：多存档管理、存档备份、模组设置面板扩展点。
-- [huanxin996/Cu-Hotbar](https://github.com/huanxin996/Cu-Hotbar)：可自定义的快捷栏，支持物品交换和快速使用。
+- [CasualtiesUnknown-SkinEditor 皮肤编辑器](https://github.com/HuanXinWork/CasualtiesUnknown-SkinEditor)：支持实时预览与动画预览。
+- [HuanXinWork/Cu-SaveManager](https://github.com/HuanXinWork/Cu-SaveManager)：多存档管理、存档备份、模组设置面板扩展点。
+- [HuanXinWork/Cu-Hotbar](https://github.com/HuanXinWork/Cu-Hotbar)：可自定义的快捷栏，支持物品交换和快速使用。
 
 ## License
 
